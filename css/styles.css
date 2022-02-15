@@ -37,7 +37,7 @@ font-weight: 900;
   margin: 0 auto;
   width: 100vw;
   height: 100vh;
-  background: url("/img/wrapper_fon.png") 0 0/100% auto no-repeat;
+  background: url("./img/wrapper_fon.png") 0 0/100% auto no-repeat;
 }
 .header{
   display: flex;
@@ -160,7 +160,7 @@ font-weight: 900;
 }
 .tel::before{
   content: ""; 
-  background: url('/img/tel_icon.png') center no-repeat;
+  background: url('./img/tel_icon.png') center no-repeat;
   padding-left: 1.5vw;
   background-size: 1vw 1vw;
 }
