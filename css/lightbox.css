@@ -189,7 +189,7 @@ body:after {
 
 .lb-data .lb-close {
   position: absolute;
-  top: 0px;
+  top: -10vw;
   right: 5vw;
   display: block;
   float: right;
