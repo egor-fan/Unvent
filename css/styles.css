@@ -362,15 +362,15 @@ h1{
 
 @media (max-width: 1215px) {
   .sale-btn {
-    font-size: 1.5vh;
-    padding: 1vw 1vw 1vw 6vw;
+    font-size: 11px;
+    padding: 10px 10px 10px 70px;
   }
 }
 
 @media (max-width: 1150px){
   h1, h1 .text-bold {
-    font-size: 6vh;
-    line-height: 6.5vh;
+    font-size: 40px;
+    line-height: 48px;
   }
 }
 @media (max-width: 1060px){
@@ -384,13 +384,13 @@ h1{
     background: url("../img/wrapper_fon.png") 0 0/auto 100% no-repeat;
   }
   h1, h1 .text-bold {
-    font-size: 5vh;
+    font-size: 34px;
   }
   .sale-btn {
-    line-height: 2.5vh;
+    line-height: 20px;
   }
   .slaider__text {
-    margin-bottom: 6.4vh;
+    margin-bottom: 30px;
   }
   main {
     width: 70%;
@@ -402,45 +402,48 @@ h1{
     display: none;
   }
   .sale-btn {
-    line-height: 3.5vh;
-    font-size: 1.9vh;
-    padding: 1vw 2vw 1vw 6vw;
+    line-height: 24px;
+    font-size: 12px;
+    padding: 10px 10px 10px 60px;
   }
   .sale-btn img {
-    top: 1.9vw;
+    top: 22px;
   }
   .sale-text,
   .sale-text span{
-    font-size: 2vh;
+    font-size: 12px;
   }
   .sale-text{
-    margin-bottom: 7vh;
+    margin-bottom: 40px;
   }
   .sale {
     width: 54%;
   }
   .slick-next:before {
-    margin-left: 14px;
+    margin-left: 22px;
   }
   .slick-slide img {
     width: 90%;
   }
   .slaider__text {
     margin-bottom: 0;
-    font-size: 1.8vh;
-    padding-bottom: 42px;
+    font-size: 11px;
+    padding-bottom: 40px;
     margin-top: 22px;
+  }
+  .slaider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   nav ul{
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    font-size: 3.5vh;
-    margin-bottom: 4vh;
   }
   nav ul li{
-    font-size: 3.5vh;
-    margin-bottom: 4vh;
+    font-size: 18px;
+    margin-bottom: 24px;
   }
   
   
@@ -541,8 +544,8 @@ h1{
     background: url("../img/wrapper_fon.png");
   }
 .header__btn {
-    padding: 1.5vh 2.5vw 1.8vh 2.5vw;
-    font-size: 1.6vh;
+    padding: 10px 14px 12px 14px;
+    font-size: 10px;
   } 
 .header__logo-text img {
   padding-right: 2vw;
