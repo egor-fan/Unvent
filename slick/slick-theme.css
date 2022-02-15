@@ -117,6 +117,7 @@
     display: block;
     width: 18px;
     height: 18px;
+    margin-left: 15px;
 }
 [dir='rtl'] .slick-next:before
 {

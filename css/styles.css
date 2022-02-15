@@ -357,6 +357,10 @@ h1{
   z-index: 2;
   }
 
+/* .variable-width{
+  width: 400px;
+} */
+
 
 
 
@@ -517,6 +521,12 @@ h1{
 }
 
 @media (max-width: 768px){
+  .variable-width{
+    width: 200px;
+  }
+  .slaider__text {
+    padding-bottom: 35px;
+  }
   main {
     width: 100%;
     margin-top: 36px;
@@ -588,6 +598,12 @@ h1{
 }
 
 @media (max-width: 500px){
+  .variable-width{
+    width: 300px;
+  }
+  .slick-slide img {
+    border: 3px solid #000000;
+  }
   .contacts_icon img {
     width: 5vw;
     height: 5vw;
@@ -655,7 +671,7 @@ h1{
 
   @media (max-width: 400px){
     h1, h1 .text-bold {
-    line-height: 5.5vh;
+    line-height: 40px;
     }
     .header__btn {
     display: none;
@@ -665,7 +681,7 @@ h1{
     justify-content: flex-start;
     }
     .header__logo-text img {
-    margin-right: 12vw;
+    margin-right: 7vw;
     }
     .header__burger {
     left: 85%;
@@ -686,13 +702,45 @@ h1{
     width: 20px;
     height: 20px;
     }   
+    .header__logo-text img {
+    width: 95px;
+    }
+    .contacts_icon img {
+    width: 7vw;
+    height: 7vw;
+    }
+    .contacts_icon img {
+    padding: 1.9vw;
+    }
+    .tel {
+    font-size: 14px;
   }
+  .contacts_icon img:not(:last-child) {
+    margin-right: 10px;
+  }
+  .tel::before {
+    padding-left: 3.5vw;
+    background-size: 3vw 3vw;
+  }
+}
   @media (max-width: 360px){
   .sale-btn {
     width: 75%;
   }
+  .slaider__text {
+    margin-top: 20px;
+  }
 }
   @media (max-width: 330px){
+    .variable-width{
+    max-width: 250px;
+  }
+    .slaider__text {
+    margin-top: 42px;
+  }
+    .header__logo-text img {
+    margin-right: 2vw;
+  }
   .cart-text {
     margin-bottom: 16px;
   }

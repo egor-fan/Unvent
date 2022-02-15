@@ -20,4 +20,19 @@ $(document).ready(function(){
   })
 })
 
+$('.variable-width').slick({
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  centerMode: true,
+  variableWidth: true
+});
+
+$('.one-time').slick({
+dots: true,
+infinite: true,
+speed: 300,
+slidesToShow: 1,
+adaptiveHeight: true
+});
 
