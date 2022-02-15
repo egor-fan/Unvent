@@ -90,7 +90,7 @@
 {
     /* content: url("/img/arrow_left.png"); */
     content: "";
-    background: url(./img/arrow_left.png) 0 0/contain no-repeat;
+    background: url("../img/arrow_left.png") 0 0/contain no-repeat;
     display: block;
     width: 18px;
     height: 18px;
@@ -113,7 +113,7 @@
 {
     /* content: url("/img/arrow_right.png"); */
     content: "";
-    background: url(./img/arrow_right.png) 0 0/contain no-repeat;
+    background: url("../img/arrow_right.png") 0 0/contain no-repeat;
     display: block;
     width: 18px;
     height: 18px;

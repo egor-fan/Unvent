@@ -160,7 +160,7 @@ font-weight: 900;
 }
 .tel::before{
   content: ""; 
-  background: url(./img/tel_icon.png) center no-repeat;
+  background: url("../img/tel_icon.png") center no-repeat;
   padding-left: 1.5vw;
   background-size: 1vw 1vw;
 }
@@ -234,7 +234,7 @@ h1{
 }
 .cart-text::before{
   content: ""; 
-  background: url(./img/before_icon.png) center no-repeat;
+  background: url("../img/before_icon.png") center no-repeat;
   padding-left: 1.5vw;
   background-size: 1.3vw;
   position: absolute;
@@ -381,7 +381,7 @@ h1{
     margin: 0 auto;
     width: 100vw;
     height: 100vh;
-    background: url(./img/wrapper_fon.png) 0 0/auto 100% no-repeat;
+    background: url("../img/wrapper_fon.png") 0 0/auto 100% no-repeat;
   }
   h1, h1 .text-bold {
     font-size: 5vh;
@@ -538,7 +538,7 @@ h1{
 
 @media (max-width: 600px){
   .wrapper {
-    background: url(./img/wrapper_fon.png);
+    background: url("../img/wrapper_fon.png");
   }
 .header__btn {
     padding: 1.5vh 2.5vw 1.8vh 2.5vw;
